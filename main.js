@@ -28,3 +28,6 @@ classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models
   function check()
   {
     img = document.getElementById('captured_image');
+function check(){
+  img.classify()
+}
